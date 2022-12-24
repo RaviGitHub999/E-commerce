@@ -1,0 +1,249 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+nav{
+  background-color:  #2874f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  
+  width:100%;
+}
+.plus-color
+{
+  color: #ffe500;
+  font-weight: 900;
+}
+.logo-p
+{
+  color: white;
+  position: relative;
+  top: -5px ;
+}
+.search-bar{
+  background-color: white;
+  padding: 8px;
+  width: 450px;
+  height: 20px;
+  margin: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  color: #2874f0;
+  box-shadow:-7px -7px 10px rgb(0, 0, 0,0.1)
+  7px 7px 10px rgb(0, 0, 0,0.1);
+  border-radius: 2px;
+}
+.search-bar input{
+  width: 425px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+.logbtn{
+  color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+}
+.a{
+  align-items: center;
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: .1px;
+  color: #fff;
+  position: relative;
+  margin: 0px 20px;
+  text-decoration: none;
+}
+.product img{
+  height: 154.5px;
+  width: 154.5px;
+ 
+}
+/* .home{
+   background-color:aqua;
+ } */
+.products{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-items: center;
+  width: 900px;
+  margin: auto;
+}
+.product{
+  width: 350px;
+  height: 350 px;
+}
+.display-prod h1{
+  text-align: center;
+}
+.loader{
+  height: 150px;
+  width: 150px;
+  animation-name: loader;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes loader {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+  
+}
+.loader img{
+  align-content: space-between;
+}
+.img{
+  color: #ffe500;
+}
+
+.w
+{
+  word-spacing: 800px;
+}
+.header{
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+ 
+}
+#first-child img
+{
+  width: 64px;
+  height: 64px;
+}
+.add-product{
+  background-color: white;
+}
+.add-product h1{
+  margin: 30px auto;
+}
+.add-product form{
+  background-color: #2455f496;
+  width: 700px;
+  margin: 30px auto;
+  padding: 15px;
+
+  display: grid;
+  grid-template-columns: 130px 430px ;
+  row-gap: 20px;
+}
+
+.add-product form label{
+  font-size: 20px;
+  text-align: left;
+}
+.add-product form>input{
+  font-size: 20px;
+  width: 430px;
+  height: 35px;
+  border: solid 1px aqua;
+  border-radius: 5px;
+
+}
+.add-product form input[type="radio"]
+{
+  accent-color: crimson;
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+
+.add-product form input[type="checkbox"]
+{
+  accent-color: crimson;
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+
+.add-product form input[type="submit"]
+{
+  background-color: crimson;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+  height: 30px;
+}
+.login-box{
+  background: linear-gradient(56deg,#567bf2 , rgb(201, 4, 201));
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-box button{
+  background-color: white;
+  width: 200px;
+  height: auto;
+  margin: 0px 50px;
+  padding: 20px;
+  border: solid 3px white;
+  border-radius: 8px;
+}
+.login-box a button{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.login-box a button:hover{
+  letter-spacing: 2px;
+  box-shadow: 0px 0px 20px black;
+  transform: scale(1.1);
+  /* transform: translate(-5%,-5%); */
+  transition: 0.3s;
+}
+
+.product{
+  width: 260px;
+  height: 330px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.16);
+  transition: 0.2s;
+}
+.product:hover{
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.357);
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+.product a{
+  text-decoration: none;
+}
+.product img{
+  width: 200px;
+  height: 250px;
+  margin: auto;
+}
+.product h2{
+  color: rgb(44, 39, 39);
+}
+.product p{
+  color: rgb(134, 134, 134);
+}
+.product span{
+  color: #0433cc;
+  font-size: 22px;
+  text-align: left;
+}
+.product small{
+  font-size: 10px;
+  text-decoration: line-through black;
+}
+
+
